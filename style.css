@@ -75,6 +75,7 @@ h3 {
 /*Add task*/
 
 .new-task {
+  color: #333;
   display: inline-block;
   flex-grow: 1;
   width: 318px;

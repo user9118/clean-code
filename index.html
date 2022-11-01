@@ -9,24 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
   <article class="info container">
     <img src="./eisenhower-matrix.jpg">
     <a class="info-more" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </article>
-  <article class="app container">
+
+  <main class="app container">
     <section class="add-task">
-        <label for="new-task">
-          <h3>Add Item</h3>
-          <div class="task-row-wrapper">
-            <input id="new-task" class="new-task" type="text">
-            <button class="add-task-btn">Add</button>
-          </div>
-        </label>
+      <label for="new-task">
+        <h3>Add Item</h3>
+        <div class="task-row-wrapper">
+          <input id="new-task" class="new-task" type="text">
+          <button class="add-task-btn">Add</button>
+        </div>
+      </label>
     </section>
+
     <section>
       <h3>Todo</h3>
       <ul class="todo-tasks">
@@ -39,6 +41,7 @@
             <img class="delete-btn-border" src="./remove.svg">
           </button>
         </li>
+        
         <li class="edit-mode task">
           <input type="checkbox" class="task-done">
           <label class="task-text">Go Shopping</label>
@@ -50,6 +53,7 @@
         </li>
       </ul>
     </section>
+
     <section>
       <h3>Completed</h3>
       <ul class="completed-tasks">
@@ -64,7 +68,7 @@
         </li>
       </ul>
     </section>
-  </article>
-  <script type="text/javascript" src="app.js"></script>
+  </main>
+  <script src="app.js"></script>
 </body>
 </html>

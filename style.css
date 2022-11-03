@@ -133,7 +133,7 @@ h3 {
 
 .edit-mode .input-task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-text {
@@ -141,5 +141,5 @@ h3 {
 }
 
 .input-task {
-  display: none
+  display: none;
 }
